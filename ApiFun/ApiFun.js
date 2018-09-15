@@ -10,12 +10,31 @@ class ApiFun extends Component {
 
     };
   }
+  componentDidMount(){
+    this.getData()
+  }
 
+  getData = () => {
+    const url = 'https://api.openbrewerydb.org/'
+
+    fetch(url)
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      this.setState({
+        data: data
+      })
+    })
+    .catch(error => {
+      return error;
+    })
+  }
 
 
   render() {
     return (
-      <div className="App">
+      <div className="ApiFun">
         <marquee>Hello World</marquee>
       </div>
     );
