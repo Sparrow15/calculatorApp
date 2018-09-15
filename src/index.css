@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App{
+  border-style: ridge;
+  background-color: red;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+
+}
+#button{
+
+       background-color: #087;
+       color: #FFFFFF;
+       padding: 7px;
+       border-radius: 7px7px;
+       -moz-border-radius: 7px7px7px;
+       -webkit-border-radius: 7px;
+       margin:7px;
+       border-width: 15px;
+       border-height: 10px;
+   }
+#resultsDisplay{
+   background-color: beige;
+   font-style: oblique;
+   font-weight: bolder;
+   border-style: groove;
+   border-width:80px;
+   height: 97px;
+   width: 75%;
+   background-color: red;
+   padding-left:50px;
+   padding-right:50px;
+
+}
+/* .numberFields{
+  background-color:yellow;
+} */
+html{
+  background-color:black;
+  align-self:center;
+}
